@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Crimson Apex placeholder logo">
+  <rect width="220" height="220" fill="#0a0a0a"/>
+  <polygon points="110,20 190,190 155,190 110,95 65,190 30,190" fill="#dc143c"/>
+  <text x="50%" y="205" text-anchor="middle" font-size="18" fill="#fff" font-family="Arial, sans-serif">CRIMSON APEX</text>
+</svg>
