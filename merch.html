@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crimson Apex Merch Shop</title>
+    <meta
+      name="description"
+      content="Shop official Crimson Apex esports merchandise from our external storefront."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header compact">
+      <a class="brand" href="index.html" aria-label="Return to homepage">
+        <img src="assets/logo.png" alt="Crimson Apex Esports logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">Crimson Apex</span>
+          <span class="brand-subtitle">Official Merch</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Merch navigation">
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+
+    <main class="section merch-layout">
+      <h1>Official Merch Shop</h1>
+      <p>
+        Our merch is hosted on a separate website. Use the button below to open the full shop,
+        or browse directly in the embedded frame if your browser allows it.
+      </p>
+
+      <a id="external-shop-link" class="btn glow" href="#" target="_blank" rel="noreferrer">
+        Open External Merch Store
+      </a>
+
+      <div class="shop-frame-wrap">
+        <iframe
+          id="shop-frame"
+          title="Crimson Apex external merch store"
+          loading="lazy"
+          referrerpolicy="no-referrer"
+        ></iframe>
+      </div>
+
+      <p class="small-note">
+        If the embedded shop does not load, your storefront likely blocks iframe embedding.
+        The button above will still open the external website correctly.
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Crimson Apex Esports. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
